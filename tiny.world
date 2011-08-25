@@ -1,0 +1,33 @@
+//commodities format - <name>#<description>
+COMMODITIES:
+Fuel#Everybody needs fuel to get around
+Spice#Rare, cinnamon-like spice
+Unobtainium#You wouldn't believe how hard it is to get this stuff
+Enriched Uranium#Don't touch it
+Cow#Colonies need these for food
+Scrap Metal#Probably good for something
+
+//locations format - <name>#<description>#<coordinates>
+LOCATIONS:
+Terra Prime#Nobody really liked Earth anyway#10,10
+Space Station Alpha#A space port for intergalactic thugs#5,5
+Hoth#It sure is cold here#17,9
+Arrakis#A desert planet with rare spice to offer#1,7
+
+//prices format - <location_name>#<commodity_name1>#<price_range1>#...#<commodity_nameN>#<price_rangeN>
+PRICES:
+Terra Prime#Fuel#10,20#Enriched Uranium#20,40#Cow#5,20#Scrap Metal#10,20
+Space Station Alpha#Fuel#20,30#Cow#20,40#Scrap Metal#20,30
+Hoth#Fuel#20,25#Unobtainium#50000,60000#Enriched Uranium#20,40#Cow#20,40#Scrap Metal#20,30
+Arrakis#Fuel#10,50#Spice#50,100#Enriched Uranium#20,40#Cow#20,40
+
+//missions format - <title>#<description>#<location>#<commodity>#<commodity_quantity>#<reward>
+MISSIONS:
+Getting Started#You've heard word that someone on Terra Prime wants Spice.#Terra Prime#Spice#1#100
+Moving Forward#Apparently Spice is illegal on Hoth.  Your new friend needs you to smuggle in 50 Spice.  There's a big reward.#Hoth#Spice#50#5000
+Wear Some Gloves#A certain scientist on Space Station Alpha wants Enriched Uranium for... research.  Bring him 100 Enriched Uranium.#Space Station Alpha#Enriched Uranium#100#3000
+Obtaining The Unobtainable#The scientist has another lab on Terra Prime in need of Unobtainium.#Terra Prime#Unobtainium#1#50000
+
+//player format - <start_location>#<start_money>#<ship_cargo_capacity>#<ship_fuel_capacity>
+PLAYER:
+Terra Prime#10000#1000#100

@@ -1,0 +1,88 @@
+//commodities format - <name>#<description>
+COMMODITIES:
+Fuel#Everybody needs fuel to get around
+Spice#Rare, cinnamon-like spice
+Unobtainium#You wouldn't believe how hard it is to get this stuff
+Enriched Uranium#Don't touch it
+Cow#Colonies need these for food
+Scrap Metal#Probably good for something
+Canned Air#Totally free of pollution
+Mineral Ore#A very useful resource
+Sandspeeder#It speeds... over sand
+Vespene Gas#Everyone could use more vespene gas
+Droid#These robots come in all varieties
+Spoons#Good for the eatin'
+Water#Can't live without it
+Heart Of The Old One#That is not dead which can eternal lie. And with strange aeons even death may die.
+
+//locations format - <name>#<description>#<coordinates>
+LOCATIONS:
+Terra Prime#Nobody really liked Earth anyway#0,0
+Space Station Alpha#A space port for intergalactic thugs#5,5
+Hoth#It sure is cold here#7,5
+Arrakis#A desert planet with rare spice to offer#3,19
+Uriel#A planet of muted colors#0,25
+Caladan#A lush, regal planet#23,17
+Eros#Many youth come here for Command School#26,26
+Perelandra#Covered by a vast ocean with floating islands#47,29
+Malacandra#A planet inhabited by tall civilized creatures#31,49
+Alderaan#A civilized, Earth-like planet#49,49
+Endor#The planet is covered in woodland and inhabited by small furry creatures#49,48
+Kashyyyk#Don't bother the large bear-like inhabitants#29,47
+Tatooine#A desert planet ruled by a family of crime lords#33,33
+Aiur#Home to an advanced race of humanoids#0,50
+Korhal#A devastated, yet still habitable planet#17,42
+Zerus#An inhospitable planet, home to insectoid creatures#0,26
+Aegis VII#A mining planet#50,0
+Ringworld#A giant ring-like, artificial planet encircling a star#47,25
+Planet X#This planet looks like something straight out of a space opera#38,14
+Nostromo#An abandoned towship... what was that noise?#33,7
+Krull#This planet has been having problems with a creature known as "The Beast"#30,25
+Spaceball#A polluted planet ruled by President Skroob#26,1
+Vhoorl#In his house at R'lyeh dead Cthulhu waits dreaming#77,77
+
+//prices format - <location_name>#<commodity_name1>#<price_range1>#...#<commodity_nameN>#<price_rangeN>
+PRICES:
+Terra Prime#Fuel#10,20#Enriched Uranium#20,40#Cow#5,20#Scrap Metal#10,20#Canned Air#10,50#Spoons#10,15
+Space Station Alpha#Fuel#20,30#Cow#20,40#Scrap Metal#20,30
+Hoth#Fuel#20,25#Unobtainium#50000,60000#Enriched Uranium#200,400#Cow#20,40#Scrap Metal#20,30
+Arrakis#Fuel#10,50#Spice#50,100#Enriched Uranium#200,400#Cow#20,40#Sandspeeder#10000,15000#Water#100,200
+Uriel#Fuel#15,20#Water#20,30#Mineral Ore#2000,3000
+Caladan#Fuel#20,30#Mineral Ore#1500,2000#Water#10,20
+Eros#Fuel#10,25#Canned Air#10,50#Spoons#10,15
+Perelandra#Fuel#20,30#Water#10,20#Spoons#100,150
+Malacandra#Fuel#10,20#Mineral Ore#4000,4500
+Alderaan#Fuel#15,40#Droid#15000,50000#Canned Air#20,40
+Endor#Fuel#10,30#Canned Air#10,50#Spoons#20,25
+Kashyyyk#Fuel#10,20#Droid#25000,30000#Scrap Metal#40,50
+Tatooine#Fuel#10,30#Sandspeeder#5000,10000#Water#100,200#Droid#15000,30000
+Aiur#Fuel#15,50#Vespene Gas#50,70#Scrap Metal#100,500
+Korhal#Fuel#10,25#Water#10,20#Vespene Gas#80,100
+Zerus#Fuel#10,25#Vespene Gas#50,100#Enriched Uranium#10,15
+Aegis VII#Fuel#15,20#Water#20,30#Scrap Metal#20,30#Mineral Ore#1000,2000
+Ringworld#Fuel#10,50#Water#10,20#Spice#500,1000#Cow#60,80
+Planet X#Fuel#20,30#Water#100,200#Unobtainium#50000,60000
+Nostromo#Fuel#10,20#Mineral Ore#1000,2000#Scrap Metal#10,50
+Krull#Fuel#15,20#Vespene Gas#50,70#Mineral Ore#1500,2000#Cow#20,40
+Spaceball#Fuel#10,40#Canned Air#100,150#Water#10,20#Spice#800,1500#Cow#20,40
+Vhoorl#Fuel#200,400#Heart Of The Old One#1000000,1200000
+
+//missions format - <title>#<description>#<location>#<commodity>#<commodity_quantity>#<reward>
+MISSIONS:
+Getting Started#You've heard word that someone on Terra Prime wants Spice.#Terra Prime#Spice#1#100
+Moving Forward#Apparently Spice is illegal on Hoth.  Your new friend needs you to smuggle in 50 Spice.  There's a big reward.#Hoth#Spice#50#5000
+Wear Some Gloves#A certain scientist on Space Station Alpha wants Enriched Uranium for... research.  Bring him 100 Enriched Uranium.#Space Station Alpha#Enriched Uranium#100#3000
+Obtaining The Unobtainable#The scientist has another lab on Terra Prime in need of Unobtainium.#Terra Prime#Unobtainium#1#50000
+A Breath Of Fresh Air#Bring President Skroob 200 cans of canned Air.  You can find him on Spaceball.#Spaceball#Canned Air#200#8000
+We Need More Vespene Gas#The Terrans on Korhal need 500 Vespene Gas to build aircraft.#Korhal#Vespene Gas#500#25000
+More Gas#Apparently the pesky insectoid inhabitants of Zerus also need some Vespene Gas.  300 to be exact.#Zerus#Vespene Gas#300#30000
+The Spice Must Flow#More Spice.  Bring 500 to Alderaan.#Alderaan#Spice#500#25000
+The Droids They Were Looking For#Your ship has picked up a distress signal.  The crew aboard Nostromo need 2 droids.#Nostromo#Droid#2#50000
+Here A Cow, There a Cow...#Cows are nice.  Ringworld could use more Cows.  Let's say, 900.#Ringworld#Cow#900#20000
+Again?  Again.#That scientist needs more Unobtainium for his lab on Terra Prime.  Bring 3 this time#Terra Prime#Unobtainium#3#180000
+So Fast#Some fuzzy little creatures on Endor want a chance to fly some Sandspeeders.  Bring them 10.#Endor#Sandspeeder#10#250000
+The Call#Some group of people on Terra Prime needs something important.  Bring them the Heart Of The Old One.  They say you can find it on Vhoorl.#Terra Prime#Heart Of The Old One#1#2000000
+
+//player format - <start_location>#<start_money>#<ship_cargo_capacity>#<ship_fuel_capacity>
+PLAYER:
+Terra Prime#10000#1000#100

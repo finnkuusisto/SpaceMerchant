@@ -1,0 +1,19 @@
+SpaceMerchant is a program I wrote to serve as an assignment for students while I
+was an instructor for CS-302 at the University of Wisconsin - Madison.  The goal
+of the assignment was to improve understanding of OOP.  The students were given
+javadocs and code skeletons (only method headers) for most of the classes and
+they were expected to complete the program.
+
+*Please send me a note if you plan to make use of any of this code*
+
+The program itself is a text adventure that allows the player to explore a game
+world, traveling from location to location, buying and selling commodities.  In
+addition to this aspect, players must manage ship fuel, ship cargo capacity and
+complete missions.  The game is complete when the player completes all the
+missions.  One of the best aspects of the game is that each game world is
+specified in a single text file with a fairly simple format.  This allows the
+player to create worlds of their own to explore.
+
+I don't currently plan to provide any more documentation for the program than is
+present in the code. I can probably provide some minimal further assistance in
+understanding the code if you plan to use it for anything.
